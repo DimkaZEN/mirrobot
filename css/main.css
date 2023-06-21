@@ -34,7 +34,14 @@
   position: absolute;
   left: 12.44vw;
   top: 10.01vw;
+  width: 9.32vw;
+  height: 9.32vw;
+}
 
+.arrow_town{
+  padding-top: 0.9em;
+  width: 1em;
+  height: 1.26vw;
 }
 
 .town{
@@ -47,7 +54,7 @@
 
   color: #000000;
 
-  padding-top: 2.40vw;
+  padding-top: 2.0vw;
   padding-left: 1.35vw;
 }
 
@@ -103,7 +110,7 @@
 
   background: #5092DE;
   box-shadow: inset 0px 4px 30px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .text1{
@@ -115,9 +122,9 @@
 
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 800;
-  font-size: 52px;
-  line-height: 63px;
+  font-weight: 950;
+  font-size: 2.71vw;
+  line-height: 3.28vw;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   
@@ -136,8 +143,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 1.35vw;
+  line-height: 1.67vw;
   
   color: #FFFFFF;
 
@@ -145,8 +152,8 @@
 
 .line_top{
   position: relative;
-  bottom:16px;
-  height: 1px;
+  bottom:0.83vw;
+  height: 0.05vw;
   background: #FFFFFF;
 }
 
@@ -164,8 +171,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 29px;
-  line-height: 35px;
+  font-size: 1.51vw;
+  line-height: 1.82vw;
   text-align: center;
   text-transform: uppercase;
   
@@ -232,6 +239,8 @@
   right: 6.22vw;
   top: 57.38vw;
   size: 12.66vw;
+  width: 27.08vw;
+  height: 27.08vw;
 }
 
 #gear_content3_1{
@@ -239,6 +248,8 @@
   top: 109.28vw;
   left: 8.21vw;
   size: 12.66vw;
+  width: 17.76vw;
+  height: 17.76vw;
 }
 
 .main_content3{
@@ -248,7 +259,7 @@
   
   background: #F7FCFF;
   box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .block_high{
@@ -275,6 +286,11 @@
   text-align: center;
 
   color: #000000;
+}
+
+.content3_image{
+  width: 15.63vw;
+  height: 15.63vw;
 }
 
 .block_content3_1{
@@ -313,8 +329,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 19px;
-  line-height: 23px;
+  font-size: 0.99vw;
+  line-height: 1.20vw;
   text-align: center;
   
   color: #333333;
@@ -453,6 +469,11 @@
   padding-top: 5.94vw;
 }
 
+.content4_image{
+  width: 14.74vw;
+  height: 13.23vw;
+}
+
 
 .tab1{
   margin-left: 22.13vw;
@@ -475,8 +496,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 0.94vw;
+  line-height: 1.15vw;
   text-align: center;
   text-transform: uppercase;
 
@@ -485,13 +506,13 @@
 
 
 .tab_content1_text{
-  padding-left: 30px;
-  padding-top: 50px;
+  padding-left: 1.56vw;
+  padding-top: 2.60vw;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 40px;
+  font-size: 0.83vw;
+  line-height: 1.04vw;
 
   color: #333333;
 }
@@ -500,8 +521,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 0.83vw;
+  line-height: 1.04vw;
 }
 
 .tab2{
@@ -524,8 +545,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 0.94vw;
+  line-height: 1.15vw;
   text-align: center;
   text-transform: uppercase;
 
@@ -533,13 +554,13 @@
 }
 
 .tab_content2_text{
-  padding-left: 30px;
-  padding-top: 60px;
+  padding-left: 1.56vw;
+  padding-top: 3.13vw;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 40px;
+  font-size: 0.83vw;
+  line-height: 2.08vw;
 
   color: #333333;
 }
@@ -552,8 +573,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 0.94vw;
+  line-height: 1.15vw;
   text-align: center;
   text-transform: uppercase;
 
@@ -580,8 +601,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 0.94vw;
+  line-height: 1.15vw;
   text-align: center;
   text-transform: uppercase;
 
@@ -638,7 +659,7 @@
 
   background: #F7FCFF;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .tab_content2{
@@ -647,7 +668,7 @@
 
   background: #F7FCFF;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .tab_content3{
@@ -656,7 +677,7 @@
 
   background: #F7FCFF;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .tab_content4{
@@ -665,7 +686,7 @@
 
   background: #F7FCFF;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 
@@ -692,7 +713,7 @@
 
   background: #F7FCFF;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 
@@ -702,7 +723,7 @@
 
   background: #F7FCFF;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .block_content4_3{
@@ -711,7 +732,7 @@
 
   background: #F7FCFF;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .block_content4_4{
@@ -720,7 +741,7 @@
 
   background: #F7FCFF;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 #gear_our_mech{
@@ -784,6 +805,11 @@
   border-radius: 2.60vw;
 }
 
+.our_teacher{
+  width: 14.48vw;
+  height: 5.10vw;
+}
+
 .content6_block1_text{
   padding-top: 1.93vw;
   padding-left: 1.09vw;
@@ -794,8 +820,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.04vw;
+  line-height: 1.25vw;
 
 }
 
@@ -820,8 +846,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.04vw;
+  line-height: 1.25vw;
 
   color: #FFFFFF;
 
@@ -829,6 +855,8 @@
 
 .more_people{
   padding-left: 12.58vw;
+  width: 12.60vw;
+  height: 12.60vw;
 }
 
 .content6_block3{
@@ -850,8 +878,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.04vw;
+  line-height: 1.25vw;
   
   color: #333333;
 
@@ -859,8 +887,11 @@
 
 .cup{
   position: absolute;
-  padding-left: 5.54em;
-  top: 7.14em;
+  padding-left: 5.25em;
+  top: 6.5em;
+
+  width: 12.60vw;
+  height: 12.60vw;
 
 }
 
@@ -889,8 +920,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
-  line-height: 28px;
+  font-size: 1.20vw;
+  line-height: 1.46vw;
   
   color: #FFFFFF;
   
@@ -917,8 +948,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
-  line-height: 28px;
+  font-size: 1.20vw;
+  line-height: 1.46vw;
   
   color: #000000;
 }
@@ -947,8 +978,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 1.30vw;
+  line-height: 1.56vw;
   
   color: #FFFFFF;
 }
@@ -965,7 +996,7 @@
 
   background: #FFFFFF;
   box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .content7_inside_text{
@@ -1009,7 +1040,7 @@
   height: 24.27vw;
 
   background: #D9D9D9;
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .tab_content22{
@@ -1017,7 +1048,7 @@
   height: 24.27vw;
 
   background: #D9D9D9;
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .tab_content33{
@@ -1025,7 +1056,7 @@
   height: 24.27vw;
 
   background: #D9D9D9;
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .tab_content44{
@@ -1033,7 +1064,7 @@
   height: 24.27vw;
 
   background: #D9D9D9;
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 
@@ -1100,7 +1131,7 @@
 .border1_text{
 
   left: calc(50% - 1036px/2 - 23px);
-  margin: 20px;
+  margin: 1.04vw;
 
   font-family: 'Inter';
   font-style: normal;
@@ -1120,7 +1151,7 @@ color: #000000;
 .container .nice-header {
   text-align: center;
   font-size: 4.5em;
-  margin-bottom: 20px;
+  margin-bottom: 1.04vw;
   font-weight: bold;
   color: #D8D8D8;
   position: relative;
@@ -1128,7 +1159,7 @@ color: #000000;
 .container .nice-header .sub {
   color: #676767;
   position: absolute;
-  top: -20px;
+  top: -1.04vw;
   right: 0;
   font-family: Georgia, serif;
   font-size: 13pt;
@@ -1180,7 +1211,7 @@ color: #000000;
 
   background: #FFFFFF;
   box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 2.60vw;
 }
 
 .content11_text{
