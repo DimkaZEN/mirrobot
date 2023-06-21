@@ -113,6 +113,14 @@
   border-radius: 2.60vw;
 }
 
+.children_top{
+  padding-left: 31.93vw;
+  padding-top: 3.90vw;
+  position: absolute;
+  width: 27.71vw;
+  height: 30.05vw;
+}
+
 .text1{
 
   width: 35.31vw;
@@ -152,8 +160,10 @@
 
 .line_top{
   position: relative;
+  margin-left: 0px;
   bottom:0.83vw;
   height: 0.05vw;
+  width: 27.55vw;
   background: #FFFFFF;
 }
 
@@ -887,8 +897,8 @@
 
 .cup{
   position: absolute;
-  padding-left: 5.25em;
-  top: 6.5em;
+  padding-left: 4.4vw;
+  top: 5.5vw;
 
   width: 12.60vw;
   height: 12.60vw;
