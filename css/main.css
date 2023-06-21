@@ -17,6 +17,7 @@
   padding-top: 0.89vw;
 }
 
+
 .gearbox {
   display: flex;
   justify-content: space-between;
@@ -67,17 +68,38 @@
 
 .social_inst{
 
-  padding-top: 1.41vw;
+  padding-top: 1.80vw;
   flex: 0 0 auto;
   width: 2.40vw;
 }
 
+.social_inst{
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+
+.social_inst:hover{
+  transform: scale(1.03);
+  transition: 1s;
+}
+
 .social_vk{
 
-  padding-top: 1.41vw;
+  padding-top: 1.80vw;
   padding-left: 0.83vw;
   width: 2.40vw;
+  overflow: hidden;
   
+}
+
+.social_vk{
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+
+.social_vk:hover{
+  transform: scale(1.03);
+  transition: 1s;
 }
 
 .number_header{
@@ -158,21 +180,20 @@
 
 }
 
-.line_top{
-  position: relative;
-  margin-left: 0px;
-  bottom:0.83vw;
-  height: 0.05vw;
+.line_our_children{
+  position: absolute;
+  padding-top: 0.82vw;
   width: 27.55vw;
-  background: #FFFFFF;
+  height: 0.30vw;
 }
 
 .button_blue{
-
+  position: relative;
   padding-left: 11.51vw;
   padding-top: 2.55vw;
 
 }
+
 
 .button-click{
   width: 17.34vw;
@@ -278,6 +299,15 @@
   margin-left: 2.03vw;
   margin-right: 2.03vw;
 
+}
+
+.line_mir_robot{
+  position: absolute;
+
+  width: 15.68vw;
+  height: 0.16vw;
+  padding-left: 32.45vw;
+  padding-top: 5.23vw;
 }
 
 .main_content3_text{
@@ -983,7 +1013,6 @@
   padding-left: 1.67vw;
 
   width: 23.75vw;
-  height: 8.80vw;
 
   font-family: 'Montserrat';
   font-style: normal;
@@ -992,6 +1021,14 @@
   line-height: 1.56vw;
   
   color: #FFFFFF;
+}
+
+.no_lego{
+  padding-left: 18vw;
+  padding-top: 1vw;
+
+  width: 10.63vw;
+  height: 9.53vw;
 }
 
 .content7{

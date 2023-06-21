@@ -50,3 +50,6 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
   window.gear_why_we.style.transform = `rotate(+${window.scrollY / 10}deg)`
 })
+
+
+
