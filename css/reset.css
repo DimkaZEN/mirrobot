@@ -41,3 +41,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+input {border:0;outline:0;}
+input:focus {outline:none!important;}
+
+textarea {border:0;outline:0;}
+textarea:focus {outline:none!important;}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #BCBCBC;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #BCBCBC;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #BCBCBC;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #BCBCBC;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #BCBCBC;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: #BCBCBC;
+}
