@@ -1101,7 +1101,11 @@
   font-size: 9.06vw;
   font-family: Montserrat;
   font-weight: 700;
-  color: linear-gradient(176deg, #5092DE 0%, #94F1DE 100%);
+
+  background-image: linear-gradient(to left,  #94f1DE, #5092DE);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 
 }
 
