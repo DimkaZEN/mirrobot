@@ -1442,6 +1442,7 @@
 
 
 .content11{
+  position: relative;
   width: 63.44vw;
   height: 33.96vw;
   margin-left: 18.28vw;
@@ -1452,6 +1453,22 @@
   background: #F6FCFF;
   box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.25);
   border-radius: 2.60vw;
+}
+
+#gear_left_content11{
+  position: absolute;
+  left: 13.44vw;
+  top: 410.13vw;
+  width: 12.66vw;
+  height: 12.66vw ;
+}
+
+#gear_right_content11{
+  position: absolute;
+  left: 69.44vw;
+  top: 433.36vw;
+  width: 22.81vw;
+  height: 22.81vw;
 }
 
 .content11_text{
@@ -1607,49 +1624,45 @@
 
 .line_footer{
   position: absolute;
-  padding-top: 262px;
-  padding-left: 81px;
-  width: 1757px;
-  height: 1px;
+  padding-top: 13.65vw;
+  padding-left: 4.22vw;
+  width: 91.51vw;
+  height: 0.05vw;
 
 }
 
 .footer_content1{
-  width: 300px;
-  margin-left: 71px;
-  margin-top: 71px;
+  width: 15.63vw;
+  margin-left: 3.70vw;
+  margin-top: 3.70vw;
 }
 
 .footer_content1 img{
 
-  margin-left: 71px;
-  width: 385px;
-  height: 162.2px;
+  margin-left: 3.70vw;
+  width: 20.05vw;
+  height: 8.44vw;
 }
 
 .time_work{
-  padding-left: 96px;
-  padding-top: 62px;
+  padding-left: 5vw;
+  padding-top: 3.23vw;
   color: #FFF;
-  font-size: 16px;
+  font-size: 0.83vw;
   font-family: Inter;
   display: flex;
-  width: 588px;
+  width: 30.63vw;
   flex-shrink: 0;
 }
 
 .information_footer{
-  padding-left: 96px;
-  padding-top: 31px;
+  padding-left: 5vw;
+  padding-top: 1.61vw;
   color: #FFF;
   font-size: 17px;
   font-family: Inter;
-  width: 588px;
+  width: 30.63vw;
   flex-shrink: 0;
-}
-
-.footer_content2{
-
 }
 
 .footer_content2 p{
@@ -1669,34 +1682,34 @@
 
 
 .footer_inst{
-  padding-top: 124px;
+  padding-top: 6.63vw;
   position: absolute;
-  left: 1090px;
+  left: 56.77vw;
 
 }
 
 .footer_vk{
   position: absolute;
-  padding-top: 124px;
-  left: 1200px;
+  padding-top: 6.63vw;
+  left: 62.50vw;
 }
 
 .button_footer{
-  margin-left: 331px;
-  top: 345px;
+  margin-left: 17.24vw;
+  top: 17.97vw;
   position: relative;
-  border-radius: 100px;
+  border-radius: 5.21vw;
   border: 2px solid #FFF;
   background: rgba(255, 255, 255, 0.00);
-  width: 498px;
-  height: 69px;
+  width: 25.94vw;
+  height: 3.59vw;
   flex-shrink: 0;
 }
 
 .button_footer span{
   color: #FFF;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.25vw;
   font-family: Inter;
   font-weight: 700;
   text-transform: uppercase;
@@ -1704,10 +1717,10 @@
 
 .TM_footer{
   position: absolute;
-  left:804px;
-  padding-top:498px;
+  left:41.88vw;
+  padding-top:25.94vw;
   text-align: center;
-  font-size: 21px;
+  font-size: 1.09vw;
   font-family: Inter;
   color: #FFF;
   
@@ -1715,7 +1728,7 @@
 
 .footer_content3{
   position: absolute;
-  padding-right: 136px;
+  padding-right: 7.08vw;
   color: #FFF;
 }
 
@@ -1723,60 +1736,60 @@
   position: absolute;
   color: #FFF;
   text-align: center;
-  font-size: 51px;
+  font-size: 2.66vw;
   font-family: Inter;
   font-weight: 700;
   text-transform: uppercase;
-  padding-left:1479px;
-  top: 86px;
+  padding-left:77.03vw;
+  top: 4.48vw;
 }
 
 .icon_telegram_footer{
-  width: 60px;
-  height: 59.994px;
+  width: 3.13vw;
+  height: 3.13vw;
   position: absolute;
-  left: 1514px;
-  top: 166px;
+  left: 78.85vw;
+  top: 8.65vw;
 }
 .icon_whatsapp_footer{
-  width: 60px;
-  height: 59.994px;
+  width: 3.13vw;
+  height: 3.13vw;
   position: absolute;
-  left: 1602px;
-  top: 166px;
+  left: 83.44vw;
+  top: 8.65vw;
 }
 .icon_viber_footer{
-  width: 60px;
-  height: 59.994px;
+  width: 3.13vw;
+  height: 3.13vw;
   position: absolute;
-  left: 1690px;
-  top: 166px;
+  left: 88.02vw;
+  top: 8.65vw;
 }
 
 .number_right_bottom_text{
   position: absolute;
-  width: 578px;
-  height: 26px;
+  width: 30.10vw;
+  height: 1.35vw;
   color: #FFF;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.25vw;
   font-family: Inter;
   font-weight: 700;
   text-transform: uppercase;
-  left: 1314px;
-  top:334px;
+  left: 68.44vw;
+  top:17.40vw;
 }
 
 .number_right_bottom{
   position: absolute;
-  width: 364px;
-  height: 26px;
+  width: 18.96vw;
+  height: 1.35vw;
   color: #FFF;
   text-align: center;
-  font-size: 33px;
+  font-size: 1.72vw;
   font-family: Inter;
   font-weight: 700;
   text-transform: uppercase;
-  left: 1410px;
-  top:384px;
+  left: 73.44vw;
+  top:20vw;
 }
