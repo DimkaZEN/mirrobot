@@ -1457,15 +1457,15 @@
 
 #gear_left_content11{
   position: absolute;
-  left: 13.44vw;
-  top: 410.13vw;
+  left: 11.44vw;
+  top: 415.13vw;
   width: 12.66vw;
   height: 12.66vw ;
 }
 
 #gear_right_content11{
   position: absolute;
-  left: 69.44vw;
+  left: 67.44vw;
   top: 433.36vw;
   width: 22.81vw;
   height: 22.81vw;
@@ -1659,7 +1659,7 @@
   padding-left: 5vw;
   padding-top: 1.61vw;
   color: #FFF;
-  font-size: 17px;
+  font-size: 0.89vw;
   font-family: Inter;
   width: 30.63vw;
   flex-shrink: 0;
@@ -1667,13 +1667,13 @@
 
 .footer_content2 p{
   position: absolute;
-  width: 707px;
-  height: 44px;
+  width: 36.82vw;
+  height: 2.29vw;
   color: #FFF;
-  font-size: 41px;
+  font-size: 2.14vw;
   font-family: Inter;
-  left: 656px;
-  padding-top: 170px;
+  left: 34.17vw;
+  padding-top: 8.85vw;
 }
 
 .footer_social{
@@ -1682,6 +1682,9 @@
 
 
 .footer_inst{
+
+  width: 4.27vw;
+  height: 4.27vw;
   padding-top: 6.63vw;
   position: absolute;
   left: 56.77vw;
@@ -1689,6 +1692,9 @@
 }
 
 .footer_vk{
+
+  width: 4.27vw;
+  height: 4.27vw;
   position: absolute;
   padding-top: 6.63vw;
   left: 62.50vw;
@@ -1768,7 +1774,7 @@
 
 .number_right_bottom_text{
   position: absolute;
-  width: 30.10vw;
+  width: 29.10vw;
   height: 1.35vw;
   color: #FFF;
   text-align: center;
