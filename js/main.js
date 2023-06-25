@@ -63,6 +63,14 @@ window.addEventListener('scroll', () => {
   window.gear_right_content11.style.transform = `rotate(+${window.scrollY / 10}deg)`
 })
 
+window.addEventListener('scroll', () => {
+  window.gear_firsr_lesson.style.transform = `rotate(+${window.scrollY / 10}deg)`
+})
+
+window.addEventListener('scroll', () => {
+  window.gear_firsr_lesson_right.style.transform = `rotate(-${window.scrollY / 10}deg)`
+})
+
 
 function animateValue(id, start, end, duration) {
   // assumes integer values for start and end
