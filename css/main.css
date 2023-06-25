@@ -872,6 +872,8 @@
 .block_lesson_content1 img{
   position: absolute;
   padding-left: 5.78vw;
+  width: 6.15vw;
+  height: 4.43vw;
 }
 
 .block_lesson_content2{
@@ -900,6 +902,8 @@
 .block_lesson_content2 img{
   position: absolute;
   padding-left: 6.25vw;
+  width: 6.30vw;
+  height: 6.30vw;
 }
 
 
@@ -918,12 +922,23 @@
   position: absolute;
   margin-top:1.55vw;
   margin-left:1.53vw;
+  display: flex;
+  width: 10vw;
+  height: 4.17vw;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #333;
+  font-size: 0.63vw;
+  font-family: Montserrat;
+  font-weight: 500;
 }
 
 .block_lesson_content3 img{
   position: absolute;
-  padding-top: 69px;
-  padding-left: 146px;
+  padding-top: 3.59vw;
+  padding-left: 7.60vw;
+  width: 4.27vw;
+  height: 4.27vw;
 }
 
 
@@ -943,12 +958,21 @@
   position: absolute;
   margin-top:1.55vw;
   margin-left:1.23vw;
+  width: 12.08vw;
+  height: 7.19vw;
+  color: #333;
+  font-size: 0.63vw;
+  font-family: Montserrat;
+  font-weight: 500;
 }
 
 .block_lesson_content4 img{
   position: absolute;
   padding-top: 2.19vw;
   padding-left: 6.04vw;
+
+  width: 5.68vw;
+  height: 5.68vw;
 }
 
 .write_me_now{
