@@ -988,6 +988,7 @@
 }
 
 .write_me_now_text{
+  
   padding-left: 4.53vw;
   margin-top:1.55vw;
   width: 7.55vw;
@@ -1012,7 +1013,7 @@
 }
 
 .name_write_me{
-
+  position: absolute;
   margin-top: 0.49vw;
   margin-left: 1.67vw;
   font-size: 0.80vw;
@@ -1036,7 +1037,7 @@
 }
 
 .number_write_me{
-
+  position: absolute;
   margin-top: 0.49vw;
   margin-left: 1.67vw;
   font-size: 0.80vw;
@@ -1060,6 +1061,7 @@
 }
 
 .town_write_me{
+  position: absolute;
   margin-top: 0.49vw;
   margin-left: 1.67vw;
   font-size: 0.80vw;
