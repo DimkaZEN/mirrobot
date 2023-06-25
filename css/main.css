@@ -1780,6 +1780,22 @@
   padding-top: 3.13vw;
 }
 
+.plane_left{
+  width: 4.43vw;
+  height: 4.43vw;
+  position: absolute;
+  padding-top: 16.88vw;
+  padding-left: 2.55vw;
+}
+
+.plane_right{
+  width: 6.04vw;
+  height: 6.04vw;
+  position: absolute;
+  padding-top: 3.91vw;
+  padding-left: 23.39vw;
+}
+
 .content11_2{
 
   width: 28.28vw;
