@@ -854,6 +854,26 @@
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
+
+.block_lesson_content1 span{
+  display: flex;
+  width: 145px;
+  height: 37px;
+  flex-shrink: 0;
+  color: #333;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+
+  padding-left: 26px;
+  margin-top: 25px;
+}
+
+.block_lesson_content1 img{
+  position: absolute;
+  padding-left: 111px;
+}
+
 .block_lesson_content2{
   margin-left: 26px;
   width: 232px;
@@ -863,6 +883,25 @@
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
+
+.block_lesson_content2 span{
+  position: absolute;
+  width: 145px;
+  height: 37px;
+  flex-shrink: 0;
+  color: #333;
+  font-size: 15px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding-top: 55px;
+  padding-left: 18px;
+}
+
+.block_lesson_content2 img{
+  position: absolute;
+  padding-left: 120px;
+}
+
 
 .block_lesson_content3{
   margin-top: 33px;
@@ -874,6 +913,21 @@
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
+
+.block_lesson_content3 span{
+  position: absolute;
+  margin-top: 42px;
+  margin-left: 26px;
+}
+
+.block_lesson_content3 img{
+  position: absolute;
+  padding-top: 69px;
+  padding-left: 146px;
+}
+
+
+
 .block_lesson_content4{
   margin-top: 33px;
   margin-left: 26px;
@@ -883,6 +937,18 @@
   border-radius: 30px;
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.block_lesson_content4 span{
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 15px;
+}
+
+.block_lesson_content4 img{
+  position: absolute;
+  padding-top: 42px;
+  padding-left: 116px;
 }
 
 .write_me_now{
