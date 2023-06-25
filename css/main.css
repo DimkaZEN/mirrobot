@@ -792,8 +792,212 @@
   height: 26.04vw;
 }
 
+.first_lesson_free{
+  position: relative;
+  margin-top: 253px;
+  margin-left: 350px;
+  width: 1218px;
+  height: 652px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #5092DE;
+  box-shadow
+  
+  : 0px 4px 48px 0px rgba(0, 0, 0, 0.25);
+}
+
+.first_lesson_text{
+  padding-top: 73px;
+  display: flex;
+  width: 1211px;
+  height: 71px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.block_lesson1{
+  display: flex;
+  justify-content: column;
+}
+
+.block_lesson2{
+  display: flex;
+  justify-content: column;
+}
+
+.left_lesson_text{
+  padding-left: 68px;
+  padding-top: 50px;
+  display: flex;
+  width: 465px;
+  height: 71px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.block_lesson_content1{
+  margin-left: 61px;
+  width: 232px;
+  height: 138px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.block_lesson_content2{
+  margin-left: 26px;
+  width: 232px;
+  height: 138px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.block_lesson_content3{
+  margin-top: 33px;
+  margin-left: 61px;
+  width: 232px;
+  height: 138px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.block_lesson_content4{
+  margin-top: 33px;
+  margin-left: 26px;
+  width: 232px;
+  height: 138px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.write_me_now{
+  position: absolute;
+  top: 326px;
+  margin-left:660px;
+  width: 476px;
+  height: 286px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(137deg, #77B6FF 0%, #94F1DE 100%);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.write_me_now_text{
+  padding-left: 87px;
+  padding-top: 26px;
+  display: flex;
+  width: 465px;
+  height: 71px;
+
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
 
 
+.background_name_write_me{
+  position: absolute;
+  width: 368px;
+  height: 39px;
+  top: 60px;
+  margin-left:32px;
+  border-radius: 5.21vw;
+  background: #FFF;
+}
+
+.name_write_me{
+
+  margin-top: 0.49vw;
+  margin-left: 1.67vw;
+  font-size: 0.80vw;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  resize: none;
+}
+
+.background_number_write_me{
+  position: absolute;
+  width: 368px;
+  height: 39px;
+  flex-shrink: 0;
+
+  top: 110px;
+  margin-left: 32px;
+
+  border-radius: 5.21vw;
+  background: #FFF;
+}
+
+.number_write_me{
+
+  margin-top: 0.49vw;
+  margin-left: 1.67vw;
+  font-size: 0.80vw;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  resize: none;
+}
+
+.background_town_write_me{
+  position: absolute;
+  width: 368px;
+  height: 39px;
+  flex-shrink: 0;
+
+  top: 160px;
+  margin-left: 32px;
+
+  border-radius: 1.56vw;
+  background: #FFF;
+}
+
+.town_write_me{
+  margin-top: 0.49vw;
+  margin-left: 1.67vw;
+  font-size: 0.80vw;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  resize: none;
+}
+
+.form_back_write_me{
+  width: 207px;
+  height: 48px;
+  border-radius: 5.21vw;
+  background: #FFF;
+
+  margin-top: 6.40vw;
+  margin-left:6.15vw;
+}
+
+.send_feedback_write_me{
+  color: #1853A0;
+  text-align: center;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 .content5{
   display: flex;
@@ -828,7 +1032,7 @@
 #gear_why_we{
   position: absolute;
   left: 5.70vw;
-  top: 241.25vw;
+  top: 291.25vw;
   width: 26.04vw;
   height: 26.04vw;
 }
@@ -1233,7 +1437,7 @@
 #gear_bottom{
   position: absolute;
   right: 5.70vw;
-  top: 326.25vw;
+  top: 376.25vw;
   width: 26.04vw;
   height: 26.04vw;
 }
@@ -1458,7 +1662,7 @@
 #gear_left_content11{
   position: absolute;
   left: 11.44vw;
-  top: 415.13vw;
+  top: 468.07vw;
   width: 12.66vw;
   height: 12.66vw ;
 }
@@ -1466,7 +1670,7 @@
 #gear_right_content11{
   position: absolute;
   left: 67.44vw;
-  top: 433.36vw;
+  top: 480.36vw;
   width: 22.81vw;
   height: 22.81vw;
 }
@@ -1691,6 +1895,16 @@
 
 }
 
+.footer_inst{
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+
+.footer_inst:hover{
+  transform: scale(1.03);
+  transition: 1s;
+}
+
 .footer_vk{
 
   width: 4.27vw;
@@ -1698,6 +1912,16 @@
   position: absolute;
   padding-top: 6.63vw;
   left: 62.50vw;
+}
+
+.footer_vk{
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+
+.footer_vk:hover{
+  transform: scale(1.03);
+  transition: 1s;
 }
 
 .button_footer{
