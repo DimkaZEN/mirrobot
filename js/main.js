@@ -108,3 +108,5 @@ function animateValue(id, start, end, duration) {
 
 
 animateValue("value", 0, 586, 5000);
+
+
