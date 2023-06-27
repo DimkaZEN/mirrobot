@@ -191,6 +191,7 @@
   width: 17.34vw;
   height: 4.53vw;
   position: relative;
+  border: none;
   text-align: center;
   margin-left: 11.51vw;
   margin-top: 2.55vw;
@@ -203,6 +204,9 @@
 .button_blue:hover {
   transition-duration: 0.1s;
   background-color: #c9c7e4;
+  transform: scale(1.03);
+  transition: 1s;
+
 }
 
 .button_blue:active:after {
