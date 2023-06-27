@@ -1110,6 +1110,35 @@
   margin-left:6.15vw;
 }
 
+.form_back_write_me:hover {
+  transition-duration: 0.1s;
+  background-color: #c9c7e4;
+}
+
+.form_back_write_me:active:after {
+  box-shadow: 0 0 0 0 white;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.form_back_write_me:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+}
+
 .send_feedback_write_me{
   color: #1853A0;
   text-align: center;
@@ -1379,7 +1408,7 @@
   width: 25.94vw;
   height: 4.06vw;
   border-radius: 5.21vw;
-  background: linear-gradient(179deg, #1961b4 0%, #6fafa2 100%);
+  background: linear-gradient(179deg, #5092DE 0%, #94F1DE 100%);
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.07);
 
   display: flex;
