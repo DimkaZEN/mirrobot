@@ -81,6 +81,7 @@
     position: absolute;
     margin-left: 33px;
     margin-top: 379px;
+    border: none;
     width: 333px;
     height: 87px;
     flex-shrink: 0;
@@ -99,6 +100,7 @@
 .button_top:hover {
     transition-duration: 0.1s;
     background-color: #c9c7e4;
+    
   }
 
   .button_top:active:after {
