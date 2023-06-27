@@ -192,9 +192,8 @@
   height: 4.53vw;
   position: relative;
   border: none;
-  text-align: center;
-  margin-left: 11.51vw;
-  margin-top: 2.55vw;
+  left: 11.51vw;
+  top: 2.55vw;
   border-radius: 100px;
   background: #FFF;
   box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -206,7 +205,7 @@
   background-color: #c9c7e4;
   transform: scale(1.03);
   transition: 1s;
-
+  
 }
 
 .button_blue:active:after {
@@ -1105,8 +1104,10 @@
 }
 
 .form_back_write_me{
+  position: absolute;
   width: 10.78vw;
   height: 2.50vw;
+  border:none;
   border-radius: 5.21vw;
   background: #FFF;
 
@@ -1116,7 +1117,8 @@
 
 .form_back_write_me:hover {
   transition-duration: 0.1s;
-  background-color: #c9c7e4;
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 
 .form_back_write_me:active:after {
@@ -1414,10 +1416,45 @@
   border-radius: 5.21vw;
   background: linear-gradient(179deg, #5092DE 0%, #94F1DE 100%);
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.07);
+  border:none;
 
   display: flex;
   justify-content: space-around;
+  
 }
+
+.write_me_button:hover {
+  transition-duration: 0.1s;
+  background-color: #c9c7e4;
+  transform: scale(1.03);
+  transition: 1s;
+  
+}
+
+.write_me_button:active:after {
+  box-shadow: 0 0 0 0 rgb(226, 226, 226);
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.write_me_button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+}
+
 
 .write_me_button span{
   display: flex;
@@ -1618,12 +1655,45 @@
   margin-left: 36.04vw;
   width: 25.94vw;
   height: 4.06vw;
+  border: none;
   border-radius: 5.21vw;
-  background: linear-gradient(179deg, #1961b4 0%, #6fafa2 100%);
+  background: linear-gradient(179deg, #5092DE 0%, #94F1DE 100%);
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.07);
 
   display: flex;
   justify-content: space-around;
+}
+
+.write_me_button2:hover {
+  transition-duration: 0.1s;
+  background-color: #c9c7e4;
+  transform: scale(1.03);
+  transition: 1s;
+  
+}
+
+.write_me_button2:active:after {
+  box-shadow: 0 0 0 0 rgb(226, 226, 226);
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.write_me_button2:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
 }
 
 .write_me_button2 span{
@@ -1989,9 +2059,42 @@
   height: 3.33vw;
   border-radius: 5.21vw;
   background: #FFF;
+  border: none;
 
   margin-top: 19.27vw;
   margin-left:6.15vw;
+}
+
+.form_back:hover {
+  transition-duration: 0.1s;
+  background-color: #c9c7e4;
+  transform: scale(1.03);
+  transition: 1s;
+  
+}
+
+.form_back:active:after {
+  box-shadow: 0 0 0 0 rgb(226, 226, 226);
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.form_back:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
 }
 
 .send_feedback{
@@ -2116,12 +2219,45 @@
   top: 17.97vw;
   position: relative;
   border-radius: 5.21vw;
+  border: none;
   border: 2px solid #FFF;
   background: rgba(255, 255, 255, 0.00);
   width: 25.94vw;
   height: 3.59vw;
   flex-shrink: 0;
 }
+
+.button_footer:hover {
+  transition-duration: 0.1s;
+  transform: scale(1.03);
+  transition: 1s;
+  
+}
+
+.button_footer:active:after {
+  box-shadow: 0 0 0 0 white;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.button_footer:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+}
+
 
 .button_footer span{
   color: #FFF;
@@ -2135,7 +2271,7 @@
 .TM_footer{
   position: absolute;
   left:41.88vw;
-  padding-top:25.94vw;
+  margin-top:25.94vw;
   text-align: center;
   font-size: 1.09vw;
   font-family: Inter;

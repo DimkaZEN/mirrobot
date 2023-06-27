@@ -11,7 +11,7 @@
 </head>
 <body>
     <script type="text/javascript">
-        if (screen.width <= 480) {
+        if (window.innerWidth <= 480) {
         window.location = "mobile.html";
         }
         </script>
@@ -71,7 +71,7 @@
 для детей от 5 до 15 лет
                 </p>
             </div>
-            <button class="button_blue">
+            <button class="button_blue" href="#first_lesson_free">
                 <span class="button-click">Записаться</span>
             </button>
         </div>
@@ -199,7 +199,7 @@
     </div>
 
 
-    <div class="first_lesson_free">
+    <div class="first_lesson_free" id="first_lesson_free">
         <span class="first_lesson_text">Первый урок бесплатно!</span>
         <span class="left_lesson_text">На пробном уроке ребенок:</span>
         <div class="block_lesson1">
@@ -282,9 +282,9 @@
             </div>    
     </div>
 
-    <button class="write_me_button" >
-        <span write_me_button_text>Записаться на пробный урок</span>
-    </button>
+    <a class="write_me_button" href="#first_lesson_free">
+        <span write_me_button_text >Записаться на пробный урок</span>
+    </a >
 
 
     <div class="content7">
@@ -316,9 +316,9 @@
         </div>
     </div>
 
-    <button class="write_me_button2" >
+    <a class="write_me_button2" href="#first_lesson_free" >
         <span>Записаться на пробный урок</span>
-    </button>
+    </a>
 
     <div class="content10">
         <p class="content10_text">Часто задаваемые вопросы:</p>
