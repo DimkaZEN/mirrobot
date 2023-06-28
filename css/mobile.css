@@ -361,3 +361,516 @@
     flex-shrink: 0;
     background: #5092DE;
     }
+
+.first_lesson_free_text_top{
+    padding-top: 43px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 38px;
+    font-family: Montserrat;
+    font-weight: 700;
+
+}
+
+.first_lesson_free_text_bottom{
+    padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+.first_lesson_free_block1{
+    margin-top: 26px;
+    margin-left: 44px;
+    width: 306px;
+    height: 109px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+
+.first_lesson_free_block2{
+    margin-top: 26px;
+    margin-left: 44px;
+    width: 306px;
+    height: 109px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+
+.first_lesson_free_block3{
+    margin-top: 26px;
+    margin-left: 44px;
+    width: 306px;
+    height: 109px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+
+.first_lesson_free_block4{
+    margin-top: 26px;
+    margin-left: 44px;
+    width: 306px;
+    height: 109px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+
+.first_lesson_free_form{
+    margin-top: 33px;
+    margin-left: 27px;
+    width: 340px;
+    height: 348px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(137deg, #77B6FF 0%, #94F1DE 100%);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.first_lesson_free_form span{
+    display: flex;
+    padding-top: 31px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+
+
+.first_lesson_free_form_name{
+    margin-top: 23px;
+    margin-left: 30px;
+    width: 272px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.first_lesson_free_form_phone{
+    margin-top: 18px;
+    margin-left: 30px;
+    width: 272px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.first_lesson_free_form_town{
+    margin-top: 18px;
+    margin-left: 30px;
+    width: 272px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.first_lesson_free_form_submit{
+    width: 239px;
+    height: 55.42px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #1853A0;
+    text-align: center;
+    font-size: 20px;
+    border:none;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-left: 51px;
+}
+
+.why_parents_choose_us span{
+    display: flex;
+    padding-top: 45px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.why_parents_choose_us_block1{
+    margin-top: 30px;
+    margin-left: 43px;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D7E9FF;
+}
+
+.why_parents_choose_us_block2{
+    margin-top: 30px;
+    margin-left: 43px;
+    width: 303px;
+    height: 454px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #77B6FF;
+}
+
+.why_parents_choose_us_block3{
+    margin-top: 30px;
+    margin-left: 43px;
+    width: 303px;
+    height: 394px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #94F1DE;
+}
+
+.why_parents_choose_us_block4{
+    margin-top: 30px;
+    margin-left: 43px;
+    width: 303px;
+    height: 394px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #94F1DE;
+}
+
+.why_parents_choose_us_block5{
+    margin-top: 30px;
+    margin-left: 43px;
+    width: 303px;
+    height: 224px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #77B6FF;
+}
+
+.why_parents_choose_us_block6{
+    margin-top: 30px;
+    margin-left: 43px;
+    width: 303px;
+    height: 573px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #1853A0;
+}
+
+.why_parents_choose_us button{
+    width: 303px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: linear-gradient(179deg, #5092DE 0%, #94F1DE 100%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.07);
+    border: none;
+    margin-top: 55px;
+    margin-left: 42px;
+
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 21px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.how_much{
+    margin-top: 47px;
+    margin-left: 43px;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F6FCFF;
+    box-shadow: 0px 4px 43px 0px rgba(0, 0, 0, 0.07);
+}
+
+.works_student_top{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.works_student_slides{
+    margin-left: 54px;
+    margin-top: 22px;
+    width: 283px;
+    height: 466px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.works_student button{
+    margin-top: 43px;
+    margin-left: 44px;
+    width: 303px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: linear-gradient(179deg, #5092DE 0%, #94F1DE 100%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.07);
+    border: none;
+
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 21px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.FAQ_text_top{
+    padding-top: 53px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.FAQ_line{
+    margin-top: 23px;
+    margin-bottom: 19px;
+    width: 322px;
+    height: 1px;
+    background: #333;
+}
+
+.FAQ_block_question1{
+    padding-left: 42px;
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 23px;
+    font-family: Montserrat;
+}
+
+.FAQ_block_question2{
+    padding-left: 42px;
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 23px;
+    font-family: Montserrat;
+}
+
+.FAQ_block_question3{
+    padding-left: 42px;
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 23px;
+    font-family: Montserrat;
+}
+
+.FAQ_block_question4{
+    padding-left: 42px;
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 23px;
+    font-family: Montserrat;
+}
+
+.FAQ_block_question5{
+    padding-left: 42px;
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 23px;
+    font-family: Montserrat;
+}
+
+.FAQ_block_question6{
+    padding-left: 42px;
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 23px;
+    font-family: Montserrat;
+}
+
+.have_a_question{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.have_a_question_form{
+    margin-top: 23px;
+    margin-left: 30px;
+    width: 323px;
+    height: 456px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(137deg, #5092DE 0%, #94F1DE 100%);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.have_a_question_form span{
+    display: flex;
+    padding-top: 35px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+.have_a_question_form_name{
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 290px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.have_a_question_form_number{
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 290px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.have_a_question_form_question{
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 290px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.have_a_question_form button{
+    margin-top: 35px;
+    margin-left: 26px;
+    width: 272px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+    border: none;
+
+    color: #1853A0;
+    text-align: center;
+    font-size: 23px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer{
+    margin-top: 71px;
+    width: 100%;
+    height: 955px;
+    flex-shrink: 0;
+    background: #5092DE;
+}
+
+.our_social_bottom{
+    padding-top: 146px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-family: Inter;
+}
+
+.bottom_line{
+    margin-top: 91px;
+    margin-left: 34px;
+    width: 323.025px;
+    height: 1px;
+    background: #FFF;
+}
+
+.button_bottom{
+    width: 304px;
+    height: 42.12px;
+    margin-top: 124px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.00);
+
+
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacnt_bottom{
+    display: flex;
+    padding-top: 28px;
+
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+}
