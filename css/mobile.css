@@ -138,3 +138,226 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.education_mir_robbo{
+    padding-top: 64px;
+    display: flex;
+    width: 100%;
+    height: 27px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-size: 19px;
+    font-family: Montserrat;
+}
+
+.education_mir_robbo_bottom{
+    padding-left: 13px;
+    display: flex;
+    width: 364px;
+    height: 168px;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.slides_top{
+    margin-left: 46px;
+    width: 298px;
+    height: 430px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F6FCFF;
+    box-shadow: 0px 4px 43px 0px rgba(0, 0, 0, 0.07);
+}
+
+.slides_top span{
+    padding-top: 21px;
+    padding-left: 61px;
+    display: flex;
+    width: 176px;
+    height: 39px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    font-family: Montserrat;
+    font-weight: 700;
+
+}
+
+.slides_top img{
+    padding-top: 31px;
+    padding-left: 24px;
+    width: 250px;
+    height: 250px;
+}
+
+.slides_top p{
+    display: flex;
+    padding-top: 19px;
+    padding-left: 15px;
+    width: 268px;
+    height: 40px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+    font-family: Montserrat;
+}
+
+.main_vector{
+    padding-left: 20px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.switch_education_point1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;                                  
+    margin-top: 24px;
+    margin-left: 96px;
+    width: 213px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(153deg, #94F1DE 0%, #5092DE 100%);
+    box-shadow: 5px 3px 9px 0px rgba(0, 0, 0, 0.02);
+
+    color: #FFF;
+    text-align: center;
+    font-size: 23px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.switch_education_point2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;                                  
+    margin-top: 24px;
+    margin-left: 96px;
+    width: 213px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D7E9FF;
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+    color: #333;
+    text-align: center;
+    font-size: 23px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.switch_education_point3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;                                  
+    margin-top: 24px;
+    margin-left: 96px;
+    width: 213px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D7E9FF;
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+    color: #333;
+    text-align: center;
+    font-size: 23px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.switch_education_image_with_description{
+    margin-top: 37px;
+    margin-left: 56px;
+    width: 283px;
+    height: 641px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F6FCFF;
+    box-shadow: 3px 4px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.programmer1{
+    top: 31px;
+    left:12px;
+    position: relative;
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+  
+    color: #1853A0;
+  }
+  
+  
+.tab_content1_text{
+    padding-left: 25px;
+    padding-top: 54px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  
+    color: #333333;
+  }
+  
+#tab_content1_text3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+  }
+
+.our_equipment span{
+    padding-left: 53px;
+    padding-top: 70px;
+    display: flex;
+    width: 285px;
+    height: 37px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.our_equipment img{
+    margin-left: 52px;
+    margin-top: 31px;
+    width: 283px;
+    height: 466px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #BCBCBC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.first_lesson_free{
+    margin-top: 48px;
+    width: 100%;
+    height: 1197px;
+    flex-shrink: 0;
+    background: #5092DE;
+    }
