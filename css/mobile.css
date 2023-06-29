@@ -283,6 +283,10 @@
     font-weight: 500;
 }
 
+.switch_container_full{
+    overflow: hidden;
+}
+
 .switch_container1{
     width: 100%;
     margin-bottom: -30px;
@@ -298,6 +302,7 @@
 .switch_education_image_with_description{
     margin-top: 37px;
     margin-left: 56px;
+    margin-right: 56px;
     width: 283px;
     height: 641px;
     flex-shrink: 0;
