@@ -77,3 +77,30 @@ textarea:focus {outline:none!important;}
 ::placeholder { /* Most modern browsers support this now. */
    color: #BCBCBC;
 }
+
+.have_a_question_form_question::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_question::-moz-placeholder                {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_question:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_question:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_question:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_question:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_question:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_question:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 1s ease;}
+
+.have_a_question_form_name::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_name::-moz-placeholder                {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_name:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_name:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_name:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_name:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_name:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_name:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 1s ease;}
+
+.have_a_question_form_number::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_number::-moz-placeholder                {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_number:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_number:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 1s ease;}
+.have_a_question_form_number:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_number:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_number:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 1s ease;}
+.have_a_question_form_number:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 1s ease;}

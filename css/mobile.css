@@ -399,6 +399,20 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
     }
 
+.first_lesson_free_block1 span{
+    display: flex;
+    padding-top: 21px;
+    padding-left: 21px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .first_lesson_free_block2{
     margin-top: 26px;
     margin-left: 44px;
@@ -410,6 +424,20 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
     }
 
+.first_lesson_free_block2 span{
+    display: flex;
+    padding-top: 21px;
+    padding-left: 21px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .first_lesson_free_block3{
     margin-top: 26px;
     margin-left: 44px;
@@ -419,7 +447,22 @@
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    }
+}
+
+.first_lesson_free_block3 span{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 
 .first_lesson_free_block4{
     margin-top: 26px;
@@ -430,7 +473,21 @@
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    }
+}
+
+.first_lesson_free_block4 span{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 .first_lesson_free_form{
     margin-top: 33px;
@@ -460,17 +517,20 @@
 .first_lesson_free_form_name{
     margin-top: 23px;
     margin-left: 30px;
-    width: 272px;
+    width: 252px;
     height: 39px;
     flex-shrink: 0;
     border-radius: 100px;
     background: #FFF;
+    padding-left: 20px;
 }
+
 
 .first_lesson_free_form_phone{
     margin-top: 18px;
     margin-left: 30px;
-    width: 272px;
+    width: 252px;
+    padding-left: 20px;
     height: 39px;
     flex-shrink: 0;
     border-radius: 100px;
@@ -480,7 +540,8 @@
 .first_lesson_free_form_town{
     margin-top: 18px;
     margin-left: 30px;
-    width: 272px;
+    width: 252px;
+    padding-left: 20px;
     height: 39px;
     flex-shrink: 0;
     border-radius: 100px;
@@ -526,6 +587,21 @@
     background: #D7E9FF;
 }
 
+.why_parents_choose_us_block1 span{
+    display: flex;
+    padding-left: 17px;
+    padding-top: 40px;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: left;
+    color: #333;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .why_parents_choose_us_block2{
     margin-top: 30px;
     margin-left: 43px;
@@ -536,24 +612,69 @@
     background: #77B6FF;
 }
 
+.why_parents_choose_us_block2 span{
+    display: flex;
+    padding-left: 17px;
+    padding-top: 40px;
+    text-align: left;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .why_parents_choose_us_block3{
     margin-top: 30px;
     margin-left: 43px;
     width: 303px;
-    height: 394px;
+    height: 270px;
     flex-shrink: 0;
     border-radius: 50px;
-    background: #94F1DE;
+    background: #5092DE;
+}
+
+.why_parents_choose_us_block3 span{
+    display: flex;
+    padding-left: 17px;
+    padding-top: 14px;
+    text-align: left;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .why_parents_choose_us_block4{
     margin-top: 30px;
     margin-left: 43px;
     width: 303px;
-    height: 394px;
+    height: 334px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #94F1DE;
+}
+
+.why_parents_choose_us_block4 span{
+    display: flex;
+    padding-left: 17px;
+    padding-top: 37px;
+    text-align: left;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .why_parents_choose_us_block5{
@@ -566,6 +687,21 @@
     background: #77B6FF;
 }
 
+.why_parents_choose_us_block5 span{
+    display: flex;
+    padding-left: 17px;
+    padding-top: 20px;
+    text-align: left;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .why_parents_choose_us_block6{
     margin-top: 30px;
     margin-left: 43px;
@@ -574,6 +710,21 @@
     flex-shrink: 0;
     border-radius: 50px;
     background: #1853A0;
+}
+
+.why_parents_choose_us_block6 span{
+    display: flex;
+    padding-left: 17px;
+    padding-top: 30px;
+    text-align: left;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .why_parents_choose_us button{
@@ -771,7 +922,8 @@
 .have_a_question_form_name{
     margin-top: 15px;
     margin-left: 17px;
-    width: 290px;
+    width: 270px;
+    padding-left: 20px;
     height: 50px;
     flex-shrink: 0;
     border-radius: 100px;
@@ -781,7 +933,8 @@
 .have_a_question_form_number{
     margin-top: 15px;
     margin-left: 17px;
-    width: 290px;
+    width: 270px;
+    padding-left: 20px;
     height: 50px;
     flex-shrink: 0;
     border-radius: 100px;
@@ -791,8 +944,10 @@
 .have_a_question_form_question{
     margin-top: 15px;
     margin-left: 17px;
-    width: 290px;
-    height: 88px;
+    width: 270px;
+    padding-left: 20px;
+    padding-bottom: 68px;
+    height: 20px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #FFF;
