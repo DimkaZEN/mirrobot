@@ -104,3 +104,12 @@ textarea:focus {outline:none!important;}
 .have_a_question_form_number:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 1s ease;}
 .have_a_question_form_number:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 1s ease;}
 .have_a_question_form_number:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 1s ease;}
+
+.element::-webkit-scrollbar {
+	width: 0;
+  }
+  
+  /*Убрать полосу прокрутки для всей страницы*/
+  ::-webkit-scrollbar {
+	width: 0;
+  }
