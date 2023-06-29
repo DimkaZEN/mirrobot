@@ -165,14 +165,49 @@
     font-family: Montserrat;
 }
 
+.why_mir_robbo{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slides_top_content{
+    overflow: hidden;
+}
+
+.slides_top_content1{
+    width: 100%;
+    margin-bottom: -30px;
+    padding: 0 0 30px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    
+}
+
 .slides_top{
     margin-left: 46px;
+    margin-right: 46px;
+    margin-top: 31px;
     width: 298px;
-    height: 430px;
+    height: 360px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #F6FCFF;
     box-shadow: 0px 4px 43px 0px rgba(0, 0, 0, 0.07);
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
 }
 
 .slides_top span{
