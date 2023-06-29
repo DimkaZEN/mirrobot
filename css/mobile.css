@@ -284,7 +284,15 @@
 }
 
 .switch_container1{
-    scroll-snap-type: y mandatory;
+    width: 100%;
+    margin-bottom: -30px;
+    padding: 0 0 30px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
 }
 
 .switch_education_image_with_description{
@@ -296,7 +304,9 @@
     border-radius: 50px;
     background: #F6FCFF;
     box-shadow: 3px 4px 9px 0px rgba(0, 0, 0, 0.25);
-    scroll-snap-align: start;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
 }
 
 .programmer1{
