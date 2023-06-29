@@ -979,8 +979,15 @@
     background: #5092DE;
 }
 
+.img_mir_robbot_footer{
+    padding-top: 26px;
+    padding-left: 17px;
+    width: 225px;
+    height: 94px;
+}
+
 .our_social_bottom{
-    padding-top: 146px;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -990,8 +997,28 @@
     font-family: Inter;
 }
 
+.our_social_bottom_image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon_instagam_footer{
+    width: 52px;
+    height: 52px;
+    padding-top: 22px;
+    padding-left: 122px;
+}
+
+.icon_vk_footer{
+    width: 52px;
+    height: 52px;
+    padding-top: 22px;
+    padding-right: 122px;
+}
+
 .bottom_line{
-    margin-top: 91px;
+    position: absolute;
+    margin-top: 28px;
     margin-left: 34px;
     width: 323.025px;
     height: 1px;
@@ -1001,7 +1028,8 @@
 .button_bottom{
     width: 304px;
     height: 42.12px;
-    margin-top: 124px;
+    margin-top: 50px;
+    margin-left: 40px;
     flex-shrink: 0;
     border-radius: 100px;
     border: 2px solid #FFF;
@@ -1028,4 +1056,74 @@
     font-family: Inter;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.block_img_contact_bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+}
+
+.block_img_contact_bottom img{
+    width: 52px;
+    height: 52px;
+}
+
+.number_bottom_mobile{
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.information_footer_mobile{
+    display: flex;
+    padding-top: 51px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.information_footer_mobile2{
+    display: flex;
+    padding-top: 42px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.TM_footer_mobile{
+    display: flex;
+    padding-top: 77px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
