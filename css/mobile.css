@@ -413,6 +413,14 @@
     line-height: normal;
 }
 
+.first_lesson_free_block1 img{
+    position: relative;
+    bottom:30px;
+    left: 200px;
+    width: 80px;
+    height: 80px;
+}
+
 .first_lesson_free_block2{
     margin-top: 26px;
     margin-left: 44px;
@@ -436,6 +444,14 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.first_lesson_free_block2 img{
+    position: relative;
+    bottom:100px;
+    left: 180px;
+    width: 120px;
+    height: 120px;
 }
 
 .first_lesson_free_block3{
@@ -463,6 +479,13 @@
     line-height: normal;
 }
 
+.first_lesson_free_block3 img{
+    position: relative;
+    bottom:100px;
+    left: 180px;
+    width: 120px;
+    height: 120px;
+}
 
 .first_lesson_free_block4{
     margin-top: 26px;
@@ -487,6 +510,14 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.first_lesson_free_block4 img{
+    position: relative;
+    bottom:35px;
+    left: 210px;
+    width: 80px;
+    height: 80px;
 }
 
 .first_lesson_free_form{
@@ -602,6 +633,13 @@
     line-height: normal;
 }
 
+.why_parents_choose_us_block1 img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 278px;
+    height: 98px;
+}
+
 .why_parents_choose_us_block2{
     margin-top: 30px;
     margin-left: 43px;
@@ -625,6 +663,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.why_parents_choose_us_block2 img{
+    padding-top: 20px;
+    padding-left: 93px;
+    width: 195px;
+    height: 195px;
 }
 
 .why_parents_choose_us_block3{
@@ -656,7 +701,7 @@
     margin-top: 30px;
     margin-left: 43px;
     width: 303px;
-    height: 334px;
+    height: 374px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #94F1DE;
@@ -675,6 +720,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.why_parents_choose_us_block4 img{
+    position: relative;
+    bottom: 40px;
+    padding-left: 120px;
+    width: 226px;
+    height: 226px;
 }
 
 .why_parents_choose_us_block5{
@@ -725,6 +778,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.why_parents_choose_us_block6 img{
+    position: relative;
+    padding-left: 87px;
+    padding-top: 34px;
+    width: 195px;
+    height: 174px;
 }
 
 .why_parents_choose_us button{
@@ -1042,6 +1103,11 @@
     font-family: Inter;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.button_bottom:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .contacnt_bottom{
