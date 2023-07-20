@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="js/main.js" type="text/javascript"></script>
+    <script src="slider.js" type="text/javascript"></script>
     <title>Мир Робот</title>
 </head>
 <body>
@@ -34,8 +37,18 @@
                 <img class="logo" src="image/Logo.svg" alt="Logo">
             </div>
             <div class="town">
-                <img class="arrow_town" src="image/arrow_town.svg" alt="">
-                <span>Novopolotsk</span>
+                <ul class="menu">
+                    <li><a href="#">Новополоцк</a>
+                 
+                        <ul>
+                            <li><a href="#" class="documents">Полоцк</a></li>
+                            <li><a href="#" class="messages">Минск</a></li>
+                            <li><a href="#" class="signout">Гродно</a></li>
+                            <li><a href="#" class="signout">Гродно</a></li>
+                            <li><a href="#" class="signout">Гродно</a></li>
+                            <li><a href="#" class="signout">Гродно</a></li>
+                        </ul>
+                </ul>
             </div>
         </div>
 
@@ -191,11 +204,70 @@
         <p class="content4_top_text">Наше оборудование:</p>
     </div>
 
-    <div class="block_content4">
-        <div class="block_content4_1"></div>
-        <div class="block_content4_2"></div>
-        <div class="block_content4_3"></div>
-        <div class="block_content4_4"></div>
+
+    <div class="swiper-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img  src="image/robbo_latories.png" alt="">
+                    <h1>РОББО Лаборатория</h1>
+                    <p>
+                        Базовая модель РОББО Лаборатории содержит: встроенные<br> датчики света, звука. Исполняемыми органами являются<br> светодиоды и пьезодинамик.
+                        <br><br>
+        На основе базового набора датчиков можно научить лабораторию<br> собирать и визуализировать данные из окружающего мира в<br> реальном времени на экране ПК, мобильной устройстве,<br> передавать команды на исполнительные органы, организовать<br> взаимодействие с ПК в режиме игрового джойстика, а также<br> управлять РОББО Платформой.<br><br>
+        Плата с датчиками и программируемыми сенсорами, упакованная в прочный прозрачный картридж. Ученики видят содержимое и могут разобраться в микроэлектронной части, не растеряв всех деталей
+                    </p>
+        
+                    <h2>
+                        ориентированная стоимость единицы: €400
+                    </h2>
+                </div>
+
+                <div class="swiper-slide">
+                    <img  src="image/robbo_latories.png" alt="">
+                    <h1>Робоплатформа</h1>
+                    <p>
+                        Робоплатформа - устройство, которое поможет в изучении робототехники и научит основам программирования роботов. В состав комплекта входит платформа и 6 подключаемых датчиков, позволяющих получать информацию об окружающей среде. Управляют Робоплатформой со смартфона, компьютера или РОББО Лаборатории. Это свободное аппаратное оборудование, с помощью которого ученики познакомятся с основами работы датчиков света, касания, линии, бесконтактного датчика расстояния, смыслом блока ветвления; алгоритмом движения по черной линии, преимуществом использования двух и более датчиков; принципом действия релейного, пропорционального, пропорционально-дифференциального, а также ПИД регуляторов счетчиком и способом его применения, алгоритмами проезда перекрестков, ответвлений и инверсных участков траектории.
+                    </p>
+        
+                    <h2>
+                        ориентированная стоимость единицы: €1 040
+                    </h2>
+                </div>
+
+                <div class="swiper-slide">
+                    <img  src="image/3D_printer_big.svg" alt="">
+                    <h1>3D - ПРИНТЕР</h1>
+                    <p>
+                        Компактный инструмент для обучения 3D прототипированию и 3D печати с инструкцией и ПО.
+Поможет воплотить в жизнь любую задумку. Ребенок нарисует модель, и 3D-принтер превратит ее в реальный трехмерный предмет из пластика.
+Вместо рисования можно выбрать готовый образец.
+                    </p>
+        
+                    <h2>
+                        ориентированная стоимость единицы: €500
+                    </h2>
+                </div>
+
+                <div class="swiper-slide">
+                    <img  src="image/shemotech.svg" alt="">
+                    <h1>РОББО Схемотехника</h1>
+                    <p>
+                        Набор для освоения азов электроники. Он состоит из 79 электронных компонентов, которые подключаются к микроконтроллеру Arduino.
+                        Вместе с руководством «Конструируем роботов на Arduino» ребенок изучит основы электроники и принципы работы микроконтроллеров, создаст электронные устройства и сможет управлять ими с компьютера, смартфона или Лаборатории.
+                    </p>
+        
+                    <h2>
+                        ориентированная стоимость единицы: €240
+                    </h2>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <img class="swiper-button-next" src="image/icon-arrow-circle-right.svg">
+        <img class="swiper-button-prev" src="image/icon-arrow-circle-left.svg">
     </div>
 
     <div class="anchor" id="first_lesson_free"></div>
@@ -445,6 +517,7 @@ IBAN <br>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="js/main.js"></script>
       <script src="back.js"></script>
+      <script src="js/slider.js"></script>
 
 </body>
 
